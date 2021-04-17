@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  color: #444;
+  font-size: 1.6rem;
+  background-color: #ddd;
+  line-height: 2rem;
+}
+div.main-container {
+  margin: 30px;
+  border: 2px solid #222;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+nav {
+  text-transform: capitalize;
+  padding: 20px;
+  height: 80px;
+  margin-bottom: 40px;
+}
+nav ul {
+  list-style: none;
+  font-size: 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav ul li {
+  letter-spacing: 0.1rem;
+  flex: 1;
+}
+nav ul li:nth-of-type(5) {
+  margin-bottom: 20px;
+}
+nav ul li a {
+  display: flex;
+  flex-grow: 1;
+  text-decoration: none;
+  color: teal;
+  line-height: 2rem;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+nav ul li a:hover {
+  font-size: 2.1rem;
+  font-weight: 700px;
+}
+nav ul li a:visited {
+  color: orangered;
+}
+h1 {
+  font-size: 2.4rem;
+}
+h2 {
+  font-size: 2.1rem;
+}
+main {
+  text-transform: capitalize;
+  padding: 20px;
+  margin-top: 20px;
+}
+hr {
+  margin: 10px 0;
+}
+section {
+  margin: 40px 0;
+}
+section.first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+section.first-section h1 {
+  padding-bottom: 10px;
+}
+section hr {
+  margin-bottom: 10px;
+}
+section.first-section p:nth-of-type(1) {
+  padding-bottom: 10px;
+}
+section ul {
+  list-style: none;
+}
+.two-column {
+  display: flex;
+  justify-content: space-between;
+}
+.second {
+  margin-right: 10px;
+}
+#educational-background li {
+  display: flex;
+  justify-content: space-between;
+}
+/* #educational-background li span.one {
+  position: relative;
+  right: 15px;
+} */
+#work-experience article {
+  margin: 40px 0;
+  text-align: center;
+}
+#work-experience article p {
+  margin-bottom: 10px;
+}
+#work-experience article p:nth-of-type(1) {
+  font-size: 2.1rem;
+}
+#work-experience article p:nth-of-type(2) {
+  font-weight: bold;
+}
+footer {
+  background-color: #efefef;
+  text-transform: capitalize;
+}
+footer article {
+  text-align: center;
+}
+footer article h2 {
+  padding: 10px 0;
+}
+footer article p {
+  padding-bottom: 10px;
+}
+footer iframe {
+  width: 100%;
+}
+footer span {
+  margin: 10px;
+  display: flex;
+  justify-self: center;
+  position: relative;
+  left: 43%;
+}
